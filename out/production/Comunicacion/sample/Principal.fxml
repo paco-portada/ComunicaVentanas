@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="227.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrincipalController">
+    <children>
+        <Label fx:id="label" layoutX="112.0" layoutY="21.0" minHeight="16" minWidth="69" text="Personas" textFill="#25a11f">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+        <Button fx:id="button" layoutX="105.0" layoutY="54.0" onAction="#nuevaVentana" text="Crear persona" />
+        <Button fx:id="btn_listar" layoutX="133.0" layoutY="94.0" mnemonicParsing="false" onAction="#mostrarPersonas" text="Listar" />
+      <TextArea fx:id="txtPersonas" editable="false" layoutX="65.0" layoutY="128.0" prefHeight="83.0" prefWidth="192.0" promptText="Lista de personas" />
+    </children>
+</AnchorPane>
